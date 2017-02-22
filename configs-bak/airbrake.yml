@@ -1,0 +1,27 @@
+default: &defaults
+  project_id: 'AIRBRAKE_PROJECT_ID'
+  project_key: 'AIRBRAKE_PROJECT_KEY'
+  ignored_environments: [
+    'development',
+    'test',
+    'cucumber'
+  ]
+  logger: <%= Rails.logger %>
+  environment: <%= Rails.env %>
+  merge_env_info: true
+
+development:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+  project_id: '117983'
+  project_key: 'e39c3c1a69664de400fad425bb126e1b'
+
+production:
+  <<: *defaults
+  project_id: '131628'
+  project_key: '5ff5745731395f7c9f0e74c213274f51'
+
+test:
+  <<: *defaults

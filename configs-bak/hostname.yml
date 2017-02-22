@@ -1,0 +1,27 @@
+defaults: &defaults
+  prefix: ""
+
+development:
+  <<: *defaults
+  prefix: "dev."
+  portal:
+    host: portal.durst.org
+    port: <%= ENV.fetch('RAILS_PORT', 3000).to_i %>
+
+production:
+  <<: *defaults
+  portal:
+    protocol:
+    host: portal.durst.org
+
+test:
+  <<: *defaults
+  portal:
+    host: test.host
+
+staging:
+  <<: *defaults
+  portal:
+    protocol:
+    host: staging.portal.durst.org
+  prefix: "staging."

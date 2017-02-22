@@ -1,0 +1,20 @@
+default: &defaults
+  :region: us-east-1
+  :bucket: your-s3-bucket-name-here
+  :credentials:
+    :key: xxx
+    :secret: yyy
+  cdn_host: http://localhost
+  # changing those in test env requires to re-record VCR for ProcessIncomingEmailsJob spec
+  emails_bucket:
+    name: incoming-emails-durst
+    incoming: staging/incoming
+    processed: staging/processed
+
+development:
+  <<: *defaults
+  # cdn_host: whatever host/port combo you use
+  cdn_host: http://localhost:3000
+
+test:
+  <<: *defaults

@@ -1,0 +1,16 @@
+default: &defaults
+  storage: file
+  store_dir_root: uploads
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+  store_dir_root: uploads/test
+
+staging:
+  storage: fog
+
+production:
+  storage: fog

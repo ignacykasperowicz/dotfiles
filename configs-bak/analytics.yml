@@ -1,0 +1,14 @@
+default: &defaults
+  tracker_id: UA-61906623-1
+
+development:
+  tracker_id: UA-2209227-12
+
+test:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+production:
+  <<: *defaults

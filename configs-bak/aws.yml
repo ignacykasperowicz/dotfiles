@@ -1,0 +1,31 @@
+default: &defaults
+  :region: us-east-1
+  :bucket: your-s3-bucket-name-here
+  :credentials:
+    :key: xxx
+    :secret: yyy
+  cdn_host: http://localhost
+  emails_bucket:
+    name: incoming-emails-durst
+    incoming: staging/incoming
+    processed: staging/processed
+
+development:
+  <<: *defaults
+  # cdn_host: whatever host/port combo you use
+  cdn_host: http://localhost:3000
+  :region: us-west-2
+  :credentials:
+    :key: AKIAJHTEUQFMTM5QUAJQ
+    :secret: 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
+  emails_bucket:
+    name: incoming-emails-durst
+    incoming: staging/incoming
+    processed: staging/processed
+
+test:
+  <<: *defaults
+  :region: us-west-2
+  :credentials:
+    :key: AKIAJHTEUQFMTM5QUAJQ
+    :secret: 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

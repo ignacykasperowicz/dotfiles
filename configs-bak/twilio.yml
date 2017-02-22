@@ -1,0 +1,15 @@
+default: &defaults
+  account_sid: ACc01f64edac15cd84de12dfa0be26e817
+  auth_token: a988fe892feaa892b903ca590c8472e0
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+production:
+  <<: *defaults

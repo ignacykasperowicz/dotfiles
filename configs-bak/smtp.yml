@@ -1,0 +1,26 @@
+development:
+  address: smtp.gmail.com
+  port: 587
+  domain: durst.org
+  authentication: :plain
+  user_name: x
+  password: x
+  enable_starttls_auto: true
+
+staging:
+  address: smtp.gmail.com
+  port: 587
+  domain: durst.org
+  authentication: :plain
+  user_name: x
+  password: x
+  enable_starttls_auto: true
+
+production:
+  address: smtp.gmail.com
+  port: 587
+  domain: durst.org
+  authentication: :plain
+  user_name: x
+  password: x
+  enable_starttls_auto: true

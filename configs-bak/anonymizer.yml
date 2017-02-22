@@ -1,0 +1,14 @@
+default: &defaults
+  domain: portal.durst.org
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+production:
+  <<: *defaults

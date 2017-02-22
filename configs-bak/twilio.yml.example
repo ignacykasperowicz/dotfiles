@@ -1,0 +1,17 @@
+default: &defaults
+  account_sid: account_sid
+  auth_token: authtoken
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+  account_sid: <%= ENV['TWILIO_ACCOUNT_ID'] %>
+  auth_token: <%= ENV['TWILIO_AUTHTOKEN'] %>
+
+staging:
+  <<: *defaults
+
+production:
+  <<: *defaults

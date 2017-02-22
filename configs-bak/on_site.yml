@@ -1,0 +1,34 @@
+default: &defaults
+  test_property_id: 181353
+  username: durst
+  password: Durst307#*
+  lease_app_url: https://www.on-site.com/services/MITSLeaseApplicationService
+  on_site_ips: [
+    '64.124.78.151',
+    '64.124.78.152',
+    '64.124.78.153',
+    '64.124.78.154',
+    '64.124.78.155',
+    '64.124.78.156',
+    '64.124.78.157',
+    '64.124.78.158',
+    '12.217.161.66'
+  ]
+  guest_card_referral_source: Property Website
+  guest_card_initial_contact_type: Internet
+
+development:
+  <<: *defaults
+  url: http://localhost:3000
+
+test:
+  <<: *defaults
+  url: http://localhost:{{onsite_property_id}}/status
+
+staging:
+  <<: *defaults
+  url: https://www.on-site.com/apply/property/{{onsite_property_id}}
+
+production:
+  <<: *defaults
+  url: https://www.on-site.com/apply/property/{{onsite_property_id}}

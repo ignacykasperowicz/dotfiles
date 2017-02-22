@@ -1,0 +1,14 @@
+default: &defaults
+  site: "http://localhost:3000/api/v0/"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+staging:
+  site: "http://staging.durst.org/api/v0/"
+
+production:
+  site: "http://www.durst.org/api/v0/"

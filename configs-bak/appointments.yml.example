@@ -1,0 +1,58 @@
+defaults: &defaults
+  office_time_zone_name: America/New_York
+  office_hours_start: 9
+  office_hours_start_during_closing_hours: 11
+  office_hours_finish: 18
+  default_max_appointments_per_time_slot: 5
+
+  holidays: &holidays
+    - May 29, 1pm # pre-Memorial day, closing early
+    - May 30 # Memorial day
+    - Jul 03, 1pm # pre-Independence day, closing early
+    - Jul 04 # Independence day
+    - Sep 04, 1pm # pre-Labor day, closing early
+    - Sep 05 # Labor day
+    - Nov 23, 1pm # pre-Thanksgiving, closing early
+    - Nov 24 # Thanksgiving
+    - Dec 24, 1pm # pre-Christmas, closing early
+    - Dec 25 # Christmas
+    - Dec 31, 1pm # pre-New Years Day, closing early
+    - Jan 01 # New Years Day
+  recurring: &recurring
+    wednesday: # weekly
+      - 2pm - 3pm
+    saturday:
+      - 9am - 10am
+    sunday:
+      - 9am - 10am
+
+
+  properties:
+    eos:
+      holidays:
+        <<: *holidays
+      recurring:
+        <<: *recurring
+        tuesday:
+          - 9am - 10am
+      # max_appointments_per_time_slot: 5
+
+    via:
+      holidays:
+        <<: *holidays
+      recurring:
+        <<: *recurring
+        wednesday:
+          - 9am - 10am
+
+test:
+  <<: *defaults
+
+development:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+production:
+  <<: *defaults

@@ -1,0 +1,13 @@
+development:
+  api_key: 'cbcc88cd98e04124a079c86a8c7c3c9a'
+  cache_refresh_time: <%= 1.day %>
+
+test:
+  api_key: 'cbcc88cd98e04124a079c86a8c7c3c9a'
+  cache_refresh_time: <%= 1.day %>
+
+staging:
+  cache_refresh_time: <%= 1.day %>
+
+production:
+  cache_refresh_time: <%= 5.minutes %>

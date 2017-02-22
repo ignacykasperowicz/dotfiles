@@ -1,0 +1,7 @@
+# This file contains the template definitions for the 'concession_disclaimer' text.
+# These are saved as an integer (:concession_text as of this writing) under the Unit model, so be careful when changing these values.
+# Most important of all, the class that loads this has some error detection measures built-in. Mainly it checks if all :concession_text values in the Unit model have a corresponding key here, and bails if they do not. So, ensure every change to this file has a migration with it.
+templates:
+  0: '*%{net_price} reflects a new construction concession of %{concession_months} free. Monthly rent is %{gross_price} for the lease term.'
+  1: '*%{net_price} reflects a concession of %{concession_months} free. Preferential monthly rent is %{gross_price} for the lease term.'
+  2: '*%{net_price} reflects a concession of %{concession_months} free. Monthly legal rent is %{gross_price} for the lease term.'
