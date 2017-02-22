@@ -1,0 +1,86 @@
+[user]
+	name = Ignacy Kasperowicz
+	email = ignacy.kasperowicz@gmail.com
+[push]
+	default = current
+[pivo-flow]
+	pivotal-token = bd53fa7acc8aef07396646751fa3b532
+[help]
+	autocorrect = 1
+[rebase]
+  autosquash = true
+[alias]
+edit = !$EDITOR $(git status --short | awk '$1 ~ /^M|A|U/ {print $2}' )
+ds = diff --staged      # git ds - diff your staged changes == review before committing.
+st = status -sb         # smarter status - include tag and branch info
+fup = log --since '1 day ago' --oneline --author="Ignacy"  # I know what you did yesterday - great for follow-ups
+ls = log --pretty=format:"%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]" --decorate --date=short  # pretty one-line log with tags, branches and authors
+lsv = log --pretty=format:"%C(yellow)%h %C(blue)%ad%C(red)%d %C(reset)%s%C(green) [%cn]" --decorate --date=short --numstat    # a verbose ls, shows changed files too
+
+# some resets without explanation
+r = reset
+r1 = reset HEAD^
+r2 = reset HEAD^^
+rh = reset --hard
+rh1 = reset HEAD^ --hard
+rh2 = reset HEAD^^ --hard
+
+today = log --author="Ignacy" --since=midnight --pretty=format:'%Cred%h%Creset - %s'
+
+# basic shortcuts
+cp = cherry-pick
+cl = clone
+ci = commit
+cf = commit --fixup
+co = checkout
+br = branch
+diff = diff --word-diff
+dc = diff --cached
+
+# stash shortcuts
+sl = stash list
+sa = stash apply
+ss = stash save
+
+# log related - thanks to @mwd410
+l = log
+lh = log --graph
+la = !git lh --date-order --all 2> /dev/null
+lb = log --graph --simplify-by-decoration
+lba = !git lb --all
+h = !git --no-pager log --graph -n 15
+a = !git --no-pager la -n 15
+	g = grep --break --heading --line-number
+  undo-commit = reset --soft HEAD^
+  pam= !BRANCH=`git branch | fzf` && git checkout ${BRANCH}
+  pamadd= !FILES=`git status -s | awk '{ print $2 }' | fzf -x -m` && git add --all ${FILES}
+  pamfix= !HASH=`git log --pretty=oneline | head | fzf` && git fixit `echo ${HASH} | awk '{ print $1 }'`
+  pamshow= !HASH=`git log --pretty=oneline | head | fzf` && git show `echo ${HASH} | awk '{ print $1 }'`
+  pamlog= !HASH=`git log --pretty=oneline | head | fzf` && echo ${HASH} | awk '{ print $1 }' | xargs echo -n | pbcopy
+  pamrebase= !HASH=`git log --pretty=oneline | head -n 50 | fzf` && git rebase -i `echo ${HASH} | awk '{ print $1 }'`^
+  pamvim= !FILES=`git status -s | awk '{ print $2 }' | fzf -x -m` && vim ${FILES}
+  pamgrep= !sh -c 'FILES=`git grep -l -A 0 -B 0 $1 $2 | fzf -x -m` && vim `echo ${FILES} | cut -d':' -f1 | xargs`' -
+  pamvimlog= !HASH=`git log --pretty=oneline | head -n 50 | fzf` && HASHZ=`echo ${HASH} | awk '{ print $1 }'` && FILES=`git show --pretty='format:'  --name-only $HASHZ | fzf -x -m` && vim ${FILES}
+  pamreset= !HASH=`git log --pretty=oneline | head -n 50 | fzf` && git reset --soft `echo ${HASH} | awk '{ print $1 }'`^
+[core]
+	excludesfile = ~/.gitignore
+	editor = nvim
+	compression = 0
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[grep]
+	lineNumber = true
+[rerere]
+	enabled = false
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[pager]
+	;diff = diff-so-fancy | less --tabs=1,5 -RFX
+	;show = diff-so-fancy | less --tabs=1,5 -RFX
+[http "https://git.w2g9.flynnhub.com"]
+	sslCAInfo = /Users/ignacykasperowicz/.flynn/ca-certs/flynn-1476471008.pem
+[credential "https://git.w2g9.flynnhub.com"]
+	helper = /usr/local/bin/flynn git-credentials
