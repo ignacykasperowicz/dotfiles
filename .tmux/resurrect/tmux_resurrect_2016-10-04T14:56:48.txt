@@ -1,0 +1,13 @@
+pane	0	0	:zsh	1	:*	0	:/Users/ignacykasperowicz/Devel/citrusbytes/home_automation	1	zsh	:
+pane	0	0	:zsh	1	:*	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:zsh	1	:*	2	:/Users/ignacykasperowicz/Devel/citrusbytes/home_automation	0	zsh	:
+pane	0	0	:zsh	1	:*	3	:/Users/ignacykasperowicz/Devel/citrusbytes/home_automation	0	zsh	:
+pane	0	0	:zsh	1	:*	4	:/Users/ignacykasperowicz/Devel/citrusbytes/home_automation	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	1	0	:zsh	1	:*	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	1	0	:zsh	1	:*	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/thin        
+pane	1	0	:zsh	1	:*	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	1	0	:zsh	1	:*	3	:/Users/ignacykasperowicz	0	zsh	:
+pane	1	0	:zsh	1	:*	4	:/Users/ignacykasperowicz/Devel/citrusbytes/home_automation	0	ssh	:ssh root@45.55.183.87
+window	0	0	1	:*	8a2b,204x57,0,0{101x57,0,0[101x18,0,0,1,101x17,0,19,6,101x20,0,37,3],102x57,102,0[102x28,102,0,4,102x28,102,29,5]}
+window	1	0	1	:*	6205,204x57,0,0[204x28,0,0{102x28,0,0,8,101x28,103,0[101x14,103,0,11,101x13,103,15,12]},204x28,0,29{102x28,0,29,9,101x28,103,29,10}]
+state	1	

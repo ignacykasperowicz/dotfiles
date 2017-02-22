@@ -1,0 +1,5 @@
+pane	0	0	:sEcIDrEmOxSHK05tHOUYysbqa@sf2.tmate.io	1	:*	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:sEcIDrEmOxSHK05tHOUYysbqa@sf2.tmate.io	1	:*	1	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	0	0	:sEcIDrEmOxSHK05tHOUYysbqa@sf2.tmate.io	1	:*	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:foreman: master  
+window	0	0	1	:*	0ee6,204x57,0,0[205x38,0,0{102x38,0,0,1,102x38,103,0,2},205x19,0,39,5]
+state	0	0

@@ -1,0 +1,7 @@
+pane	0	0	:rails	1	:*	0	:/Users/ignacykasperowicz	0	zsh	:
+pane	0	0	:rails	1	:*	1	:/Users/ignacykasperowicz/Devel/seo_platform	0	zsh	:
+pane	0	0	:rails	1	:*	2	:/Users/ignacykasperowicz/Devel/haystak/dynamic	1	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.3/bin/ruby bin/rails c
+pane	0	0	:rails	1	:*	3	:/Users/ignacykasperowicz/Devel/playground/ember-simple-auth-example	0	zsh	:
+pane	0	0	:rails	1	:*	4	:/Users/ignacykasperowicz/Devel/seo_platform	0	ruby	:foreman: master   
+window	0	0	1	:*	c7c2,363x91,0,0[364x29,0,0{181x29,0,0,1,182x29,182,0,5},364x30,0,30{181x30,0,30,2,182x30,182,30,3},364x32,0,61,4]
+state	0	0

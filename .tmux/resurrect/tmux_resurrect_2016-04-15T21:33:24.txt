@@ -1,0 +1,5 @@
+pane	0	0	:..evel/hsp-site	1	:*	0	:/Users/ignacykasperowicz/Devel/hsp-site	0	psql	:psql -U itbzbzdnyjlfcv -h ec2-54-227-250-148.compute-1.amazonaws.com -p 5432 --set PROMPT1=hsp-prod::DATABASE%R%#  --set PROMPT2=hsp-prod::DATABASE%R%#  d1v6n2i0808i7v
+pane	0	0	:..evel/hsp-site	1	:*	1	:/Users/ignacykasperowicz/Devel/hsp-site	1	zsh	:
+pane	0	0	:..evel/hsp-site	1	:*	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+window	0	0	1	:*	0ee6,204x57,0,0[205x38,0,0{102x38,0,0,1,102x38,103,0,2},205x19,0,39,5]
+state	0	0

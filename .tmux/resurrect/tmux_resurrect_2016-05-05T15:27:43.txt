@@ -1,0 +1,18 @@
+pane	0	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/cts	0	zsh	:
+pane	6	0	:../durst_portal	1	:*	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	6	0	:../durst_portal	1	:*	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	6	0	:../durst_portal	1	:*	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails s
+pane	6	0	:../durst_portal	1	:*	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/rake jobs:work
+pane	6	0	:../durst_portal	1	:*	4	:/Users/ignacykasperowicz/Devel/cts	0	docker	:docker run -i -t vts bash
+pane	6	0	:../durst_portal	1	:*	5	:/Users/ignacykasperowicz/Devel/hsp-site	1	zsh	:
+window	0	0	1	:*Z	ed26,204x58,0,0[205x39,0,0{128x39,0,0,1,38x39,129,0,2,37x39,168,0,3},205x19,0,40,4]
+window	4	0	1	:*Z	a334,204x58,0,0{102x58,0,0,5,101x58,103,0[101x14,103,0,6,101x14,103,15,7,101x28,103,30,8]}
+window	6	0	1	:*	df8b,181x93,0,0{91x93,0,0[91x46,0,0,9,91x46,0,47,10],89x93,92,0[89x26,92,0{52x26,92,0,11,36x26,145,0,14},89x26,92,27,12,89x39,92,54,13]}
+state	6	4

@@ -1,0 +1,24 @@
+pane	0	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	0	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	0	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	1	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	1	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	1	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails s
+pane	1	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails s
+pane	1	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	1	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	1	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	1	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	1	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/rake jobs:work
+pane	1	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/rake jobs:work
+pane	1	0	:../durst_portal	1	:*Z	4	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	1	0	:../durst_portal	1	:*Z	4	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+window	0	0	1	:*Z	c43e,364x93,0,0,1
+window	0	0	1	:*Z	c43e,364x93,0,0,1
+window	1	0	1	:*Z	6580,204x57,0,0,11
+window	1	0	1	:*Z	6580,204x57,0,0,11
+state	1	
+state	1	

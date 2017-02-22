@@ -1,0 +1,6 @@
+pane	0	0	:~	1	:*	0	:/Users/ignacykasperowicz	1	zsh	:
+pane	0	0	:~	1	:*	1	:/Users/ignacykasperowicz	0	zsh	:
+pane	0	0	:~	1	:*	2	:/Users/ignacykasperowicz	0	zsh	:
+pane	0	0	:~	1	:*	3	:/Users/ignacykasperowicz	0	zsh	:
+window	0	0	1	:*	3227,238x73,0,0{119x73,0,0[119x36,0,0,0,119x36,0,37,2],118x73,120,0[118x36,120,0,1,118x36,120,37,3]}
+state	0	

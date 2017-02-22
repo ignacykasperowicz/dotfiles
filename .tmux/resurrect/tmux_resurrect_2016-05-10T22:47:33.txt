@@ -1,0 +1,64 @@
+pane	0	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	12	0	:~	1	:*	0	:/Users/ignacykasperowicz	1	zsh	:
+pane	12	0	:~	1	:*	0	:/Users/ignacykasperowicz	1	zsh	:
+pane	15	0	:~	1	:*	0	:/Users/ignacykasperowicz	1	zsh	:
+pane	15	0	:~	1	:*	0	:/Users/ignacykasperowicz	1	zsh	:
+pane	16	0	:~	1	:*	0	:/Users/ignacykasperowicz	1	zsh	:
+pane	16	0	:~	1	:*	0	:/Users/ignacykasperowicz	1	zsh	:
+pane	17	0	:~	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	17	0	:~	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	17	0	:~	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	17	0	:~	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	17	0	:~	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails s
+pane	17	0	:~	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails s
+pane	17	0	:~	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/rake jobs:work
+pane	17	0	:~	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/rake jobs:work
+pane	17	0	:~	1	:*Z	4	:/Users/ignacykasperowicz	0	zsh	:
+pane	17	0	:~	1	:*Z	4	:/Users/ignacykasperowicz	0	zsh	:
+pane	20	0	:zsh	1	:*	0	:/Users/ignacykasperowicz	1	zsh	:
+pane	20	0	:zsh	1	:*	0	:/Users/ignacykasperowicz	1	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/cts	0	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/cts	0	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	4	:/Users/ignacykasperowicz/Devel/cts	1	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	4	:/Users/ignacykasperowicz/Devel/cts	1	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	5	:/Users/ignacykasperowicz	0	zsh	:
+pane	6	0	:~/Devel/cts	1	:*Z	5	:/Users/ignacykasperowicz	0	zsh	:
+window	0	0	1	:*Z	ce9e,204x58,0,0,1
+window	12	0	1	:*	e784,204x58,0,0,25
+window	15	0	1	:*	e787,204x58,0,0,28
+window	16	0	1	:*	e788,204x58,0,0,29
+window	0	0	1	:*Z	ce9e,204x58,0,0,1
+window	12	0	1	:*	e784,204x58,0,0,25
+window	15	0	1	:*	e787,204x58,0,0,28
+window	16	0	1	:*	e788,204x58,0,0,29
+window	17	0	1	:*Z	6467,204x57,0,0{102x57,0,0[102x28,0,0,30,102x28,0,29,34],101x57,103,0[101x13,103,0,32,101x14,103,14,35,101x28,103,29,33]}
+window	20	0	1	:*	6589,204x57,0,0,39
+window	17	0	1	:*Z	6580,204x57,0,0,30
+window	20	0	1	:*	6589,204x57,0,0,39
+window	4	0	1	:*Z	a334,204x58,0,0{102x58,0,0,5,101x58,103,0[101x14,103,0,6,101x14,103,15,7,101x28,103,30,8]}
+window	4	0	1	:*Z	cea2,204x58,0,0,5
+window	6	0	1	:*Z	4156,204x58,0,0{103x58,0,0[103x29,0,0,9,103x28,0,30,10],100x58,104,0[100x14,104,0{64x14,104,0,11,35x14,169,0,12},100x15,104,15,13,100x27,104,31,14]}
+state	17	
+window	6	0	1	:*Z	6782,204x58,0,0,13
+state	17	

@@ -1,0 +1,6 @@
+pane	0	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.3.1@durst_portal/bin/guard  
+pane	0	0	:../durst_portal	1	:*Z	1	:	0	reattach-to-user-namespace	:sudo vim /etc/hosts
+pane	0	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	1	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.3.1/bin/ruby bin/rails c
+pane	0	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+window	0	0	1	:*Z	6ff0,204x57,0,0{102x57,0,0[102x28,0,0,0,102x28,0,29,3],101x57,103,0[101x28,103,0,1,101x28,103,29,2]}
+state	0	

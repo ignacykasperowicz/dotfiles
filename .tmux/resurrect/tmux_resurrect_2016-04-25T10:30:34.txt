@@ -1,0 +1,12 @@
+pane	0	0	:bash	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	bash	:
+pane	0	0	:bash	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	bash	:
+pane	0	0	:bash	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	bash	:
+pane	0	0	:bash	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	bash	:
+pane	4	0	:heroku	1	:*Z	0	:/Users/ignacykasperowicz/Devel/capitama	1	heroku-cli	:/Users/ignacykasperowicz/.heroku/heroku-cli run rake rollbar:test
+pane	4	0	:heroku	1	:*Z	1	:/Users/ignacykasperowicz/Devel/capitama	0	zsh	:
+pane	4	0	:heroku	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails s
+pane	4	0	:heroku	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/rake jobs:work
+pane	4	0	:heroku	1	:*Z	4	:/Users/ignacykasperowicz	0	zsh	:
+window	0	0	1	:*Z	b71f,204x57,0,0[205x38,0,0{128x38,0,0,1,38x38,129,0,2,37x38,168,0,3},205x19,0,39,4]
+window	4	0	1	:*Z	6d29,364x93,0,0{182x93,0,0[182x46,0,0,12,182x46,0,47,15],181x93,183,0[181x26,183,0,13,181x25,183,27,17,181x40,183,53,14]}
+state	4	

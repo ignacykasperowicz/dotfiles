@@ -1,0 +1,7 @@
+pane	0	0	:[tmux]	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/thin        
+pane	0	0	:[tmux]	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/rake    
+pane	0	0	:[tmux]	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	1	tail	:tail -f log/development.log
+pane	0	0	:[tmux]	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	0	0	:[tmux]	1	:*Z	4	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+window	0	0	1	:*Z	aa17,204x57,0,0{101x57,0,0[101x14,0,0,1,101x13,0,15,5,101x28,0,29,2],102x57,102,0[102x28,102,0,3,102x28,102,29,4]}
+state	0	

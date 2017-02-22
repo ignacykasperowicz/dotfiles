@@ -1,0 +1,17 @@
+pane	0	0	:bash	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	bash	:
+pane	0	0	:bash	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	bash	:
+pane	0	0	:bash	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	bash	:
+pane	0	0	:bash	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	bash	:
+pane	4	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	4	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails s
+pane	4	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:bash /Users/ignacykasperowicz/.tmux/plugins/tmux-resurrect/scripts/../save_command_strategies/ps.sh 7234
+pane	4	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/cts	0	zsh	:
+pane	6	0	:rails	1	:*	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	6	0	:rails	1	:*	1	:/Users/ignacykasperowicz	0	zsh	:
+pane	6	0	:rails	1	:*	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	6	0	:rails	1	:*	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/rake jobs:work
+pane	6	0	:rails	1	:*	4	:/Users/ignacykasperowicz	0	zsh	:
+window	0	0	1	:*Z	b71f,204x57,0,0[205x38,0,0{128x38,0,0,1,38x38,129,0,2,37x38,168,0,3},205x19,0,39,4]
+window	4	0	1	:*Z	1037,204x57,0,0{102x57,0,0,15,101x57,103,0[101x14,103,0,13,101x13,103,15,17,101x28,103,29,14]}
+window	6	0	1	:*	d069,204x57,0,0{102x57,0,0[102x28,0,0,19,102x28,0,29,22],101x57,103,0[101x14,103,0,20,101x13,103,15,24,101x28,103,29,21]}
+state	6	

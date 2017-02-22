@@ -1,0 +1,10 @@
+pane	0	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	1	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	1	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz	0	zsh	:
+pane	1	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	1	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+window	0	0	1	:*Z	c9ec,204x57,0,0{102x57,0,0,1,101x57,103,0[101x28,103,0,3,101x28,103,29,4]}
+window	1	0	1	:*Z	589a,204x57,0,0{102x57,0,0[102x28,0,0,167,102x28,0,29,170],101x57,103,0[101x28,103,0,168,101x28,103,29,169]}
+state	1	

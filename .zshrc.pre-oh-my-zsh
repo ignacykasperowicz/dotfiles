@@ -1,0 +1,3 @@
+source /Users/ignacykasperowicz/zshrc.sh
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PROMPT='%B%m%~%b$(git_super_status) %# '

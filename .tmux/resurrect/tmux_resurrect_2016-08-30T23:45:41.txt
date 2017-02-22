@@ -1,0 +1,6 @@
+pane	0	0	:zsh	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/gems/ruby-2.2.2@durst_portal/bin/thin        
+pane	0	0	:zsh	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:zsh	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	0	0	:zsh	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+window	0	0	1	:*Z	0037,272x69,0,0{135x69,0,0[135x34,0,0,1,135x34,0,35,2],136x69,136,0[136x34,136,0,3,136x34,136,35,4]}
+state	0	

@@ -1,0 +1,14 @@
+pane	0	0	:..ystak/dynamic	1	:*	0	:/Users/ignacykasperowicz/Devel/haystak/dynamic	0	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	0	:/Users/ignacykasperowicz/Devel/haystak/dynamic	0	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	1	:/Users/ignacykasperowicz/Devel/seo_platform	1	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	1	:/Users/ignacykasperowicz/Devel/seo_platform	1	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	2	:/Users/ignacykasperowicz/Devel/haystak/dynamic	0	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	2	:/Users/ignacykasperowicz/Devel/haystak/dynamic	0	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	3	:/Users/ignacykasperowicz/Devel/playground/ember-simple-auth-example	0	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	3	:/Users/ignacykasperowicz/Devel/playground/ember-simple-auth-example	0	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	4	:/Users/ignacykasperowicz/Devel/seo_platform	0	ruby	:foreman: master   
+window	0	0	1	:*	3e33,203x55,0,0[204x17,0,0{101x17,0,0,1,102x17,102,0,5},204x18,0,18{101x18,0,18,2,102x18,102,18,3},204x20,0,37,4]
+pane	0	0	:..ystak/dynamic	1	:*	4	:/Users/ignacykasperowicz/Devel/seo_platform	0	ruby	:foreman: master   
+state	0	0
+window	0	0	1	:*	3e33,203x55,0,0[204x17,0,0{101x17,0,0,1,102x17,102,0,5},204x18,0,18{101x18,0,18,2,102x18,102,18,3},204x20,0,37,4]
+state	0	0

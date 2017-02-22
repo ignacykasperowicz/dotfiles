@@ -1,0 +1,100 @@
+  config.action_controller.asset_host = "http://assets.example.com",V
+      before do        allow(controller).to receive(:find_news).and_return(updated_news)      end,V
+          expect(flash[:notice]).to match(/News updated successfully/),V
+          expect(flash[:alert]).to match(/You are not authorized to perform this action./),V
+        it 'renders success message for the admin' do,V
+        it 'renders permissions denied message' do,V
+,V
+        before do          allow(updated_news).to receive(:update).and_return(true)        end,V
+      before do        allow(controller).to receive(:find_news).and_return(updated_news)      end,V
+    describe 'PUT #update' do      let(:updated_news) { mock_model(News) }      before do        allow(controller).to receive(:find_news).and_return(updated_news)      end      context 'when news is updated successfully' do        before do          allow(updated_news).to receive(:update).and_return(true)        end        it 'renders success message for the admin' do          put :update, id: updated_news, news: { title: 'Updated title' }          expect(flash[:notice]).to match(/News updated successfully/)        end      end,V
+          p flash.inspect,V
+    let(:user) { create(:user) }    before do      user.add_role(:reception, property)      property.news << news      sign_in(user)    end,V
+    describe 'POST #create' do      let(:news_params) { { news: attributes_for(:news) } }      let(:news_object) { double }      let(:created_news) { mock_model(News) }      before do        allow(user).to receive(:news).and_return(news_object)        allow(news_object).to receive(:new).and_return(created_news)      end      context 'when user is not permitted to create news' do        before do          allow(created_news).to receive(:save).and_return(true)        end        it 'renders permissions denied message' do          post :create, news_params          p flash.inspect          expect(flash[:alert]).to match(/News created successfully/)        end      end    end,V
+          put :update, id: updated_news, news_params,V
+          put :update, id: updated_news, news: { title: 'Updated title' },V
+          put :update, id: updates_news, news: { title: 'Updated title' },V
+ ws_params,v
+      let(:news_params) { { news: attributes_for(:news) } },V
+      let(:updated_news) { mock_model(News) },V
+created_news,v
+create,v
+created,v
+save,v
+      let(:news_object) { double },V
+        allow(news_object).to receive(:new).and_return(created_news),V
+    describe 'POST #create' do      let(:news_params) { { news: attributes_for(:news) } }      let(:news_object) { double }      let(:created_news) { mock_model(News) }      before do        allow(user).to receive(:news).and_return(news_object)        allow(news_object).to receive(:new).and_return(created_news)      end      context 'when news is created successfully' do        before do          allow(created_news).to receive(:save).and_return(true)        end        it 'renders success message for the admin' do          post :create, news_params          expect(flash[:notice]).to match(/News created successfully/)        end      end      context  'when news is not created successfully' do        before do          allow(created_news).to receive(:save).and_return(false)        end        it 'renders an error message for the admin' do          post :create, news_params          expect(flash[:alert]).to match(/Unable to create News/)        end      end    end,V
+>>>>>>> Remove red error boxes from image partials,V
+=======,V
+<<<<<<< dbafa37b48dd7c46e6923ea207286bf2b2d60a0a,V
+ik_139851387_unsubscribe_link_fixes,v
+        sign_in(admin),V
+      When 'I visit the news edit page as an admin' do        sign_in(admin)        visit edit_admin_news_path(news)      end,V
+      And 'I should have not delivered an email for *subscriber* users only (one user)' do        travel(10.minutes) do          delayed_job_work_off        end        expect(ActionMailer::Base.deliveries.count).to eq(1)      end,V
+      And 'I click the "Subscribers" button' do        click_link('send-now-subscriber')      end,V
+      And 'Button "Subscribers" has counter' do        within 'div.user-role-row', text: 'Subscribers' do          expect(page).to have_content('1')        end      end,V
+      Then 'I should see a confirmation message' do        expect_to_see 'sent successfully'      end,V
+    ,V
+    the_scenario 'Admin cannot ' do      Given 'External users with role subscriber for a given property' do        users.first.subscribe_to(property)        users.last.become_prospector_of(property)      end      When 'I visit the news edit page as an admin' do        sign_in(admin)        visit edit_admin_news_path(news)      end      And 'I have all current emails in queue delivered and cleaned' do        travel_10_min_and_clean_queue      end      And 'Button "Subscribers" has counter' do        within 'div.user-role-row', text: 'Subscribers' do          expect(page).to have_content('1')        end      end      And 'I click the "Subscribers" button' do        click_link('send-now-subscriber')      end      Then 'I should see a confirmation message' do        expect_to_see 'sent successfully'      end      And 'I should have delivered an email for *subscriber* users only (one user)' do        travel(10.minutes) do          delayed_job_work_off        end        expect(ActionMailer::Base.deliveries.count).to eq(1)      end    end,V
+    the_scenario 'Admin user sends email to subscribers only' do      Given 'External users with role subscriber for a given property' do        users.first.subscribe_to(property)        users.last.become_prospector_of(property)      end      When 'I visit the news edit page as an admin' do        sign_in(admin)        visit edit_admin_news_path(news)      end      And 'I have all current emails in queue delivered and cleaned' do        travel_10_min_and_clean_queue      end      And 'Button "Subscribers" has counter' do        within 'div.user-role-row', text: 'Subscribers' do          expect(page).to have_content('1')        end      end      And 'I click the "Subscribers" button' do        click_link('send-now-subscriber')      end      Then 'I should see a confirmation message' do        expect_to_see 'sent successfully'      end      And 'I should have delivered an email for *subscriber* users only (one user)' do        travel(10.minutes) do          delayed_job_work_off        end        expect(ActionMailer::Base.deliveries.count).to eq(1)      end    end,V
+        %h3 Caption        = f.input :caption, hint: 'Caption describing the background image',V
+          = f.inputV :hide_pricing_on_listing, as: :boolean,            hint: 'Hide pricing', label: 'Listings',V
+        .subscribed_to_receive_mailing_from(property),V
+          expect(User.subscribed_to_receive_mailing_from(eos)).to be_empty,V
+        it 'returns user subscribed to receive mailing' do          expect(User.subscribed_to_receive_mailing_from(eos)).to eq([user])        end,V
+        let(:user) { create(:user, unsubscribed_from_mailing: [via.slug])}        it 'returns user subscribed to receive mailing' do          expect(User.subscribed_to_receive_mailing_from(eos)).to eq([user])        end        it 'does not return user not subscribed to receive mailing' do          expect(User.subscribed_to_receive_mailing_from(eos)).to be_empty        end,V
+          expect(User.subscribed_to_receive_mailing_from(via)).to eq([user]),V
+        let(:user) { create(:user, unsubscribed_from_mailing: [])}        it 'returns user subscribed to receive mailing' do          expect(User.subscribed_to_receive_mailing_from(via)).to eq([user])        end,V
+      let(:via) { create(:property, :via) },V
+      # TODO,V
+    User      .all      .select { |user| user.unsubscribed_from_mailing.exclude? property.slug },V
+      ,V
+sent_emails.pluck(:user_id),v
+      User.where.not(id: user_ids_with_news_sent_to).joins(:roles),V
+      User        .where.not(id: user_ids_with_news_sent_to)        .joins(:roles),V
+    where('unsubscribed_from_mailing LIKE "%?%"', property.slug),V
+b,v
+n,v
+    User.      unsubscribed_from_mailing.exclude? property,V
+    where('mapping_info -> :key = :value',      key: 'property', value: property),V
+          And 'The mailing is not being send to me anymore' do            # TODO          end,V
+fn main() {    let number = 3;    if number < 5 {        println!("condition was true");    } else {        println!("condition was false");    }},v
+fn main() {    println!("Hello, world!");},V
+    Plug 'benmills/vimux',V
+unknown option: --height,v
+        let test#ruby#bundle_exec = 1,V
+        Then 'I should see confirmation message' do          expect(find('.alert-info')).to have_content('User updated successfully')        end,V
+        Then "I should see a confirmation message" do          expect_to_see_in_confirmation_alert('Caution, you are about to delete User')        end        And 'I click "confirm"' do          accept_confirmation_alert        end,V
+        And 'I click Submit to save the User data' do          click_button 'Save'        end,V
+          click_link 'Delete',V
+",v
+        When 'I visit the admin edit user page' do          visit edit_admin_user_path(user_edit)        end        And "I click the 'delete button'" do          click_link 'Delete'        end        Then "I should see a confirmation message" do          expect_to_see_in_confirmation_alert('Caution, you are about to delete User')        end        And 'I click "confirm"' do          accept_confirmation_alert        end        Then 'The user should be deleted' do          expect(User.pluck(:email)).not_to include(user_edit.email)        end,V
+    user_attributes += [{ role_ids: [] }] if can_edit_roles?,V
+        - ,V
+      - @property_roles.each do |property_name, roles|,V
+    return if unsubscribed_from_mailing.include? property.slug,V
+      it 'sets unsubscribed flag for given property' do        user.unsubscribe_from(property)        expect(user.unsubscribed_from_mailing).to match_array([property.slug])      end,V
+      let(:user) { create(:user) },V
+    let(:user) { create(:user) },V
+    it 'sets unsubscribed flag for given property' do      user.unsubscribe_from(property)      expect(user.unsubscribed_from_mailing).to match_array([property.slug])    end,V
+/The user has been unsubscribed from the property EOS/,v
+        #allow(Property).to receive(:find)          #.with(property.id.to_s)          #.and_return(property),V
+      it 'renders and error for the user in flash alert message' do,V
+      it 'renders success message for the user as flash notice' do,V
+      before do        allow(User).to receive(:find_and_unsubscribe_by)          .with(token, property)          .and_return(user)        allow(Property).to receive(:find)          .with(property.id.to_s)          .and_return(property)      end      it 'renders and error for the user in flash alert message' do        get :unsubscribe, token: token, property_id: property.id        expect(flash[:notice]).to match(/The user has been unsubscribed from the property EOS/)      end,V
+:alert,v
+    context 'when unsubscribing fails' do,V
+    context 'when unsubscribing is successfull' do,V
+        expect(user.unsubscribed_from_mailing).to match_array([property.slug]),V
+    it 'sets given property as unsubscribed from mailing for given user' do      get :unsubscribe, token: token, property_id: property.id      expect(user.unsubscribed_from_mailing).to match_array([property.slug])    end,V
+    before do      allow(User).to receive(:find_and_unsubscribe_by)        .with(token, property)        .and_return(user)      allow(Property).to receive(:find)        .with(property.id.to_s)        .and_return(property)    end,V
+      allow(user).to receive(:subscribed_to?).with(property).and_return(true),V
+      allow(user).to receive(:unsubscribe_from).with(property) {        allow(user).to receive(:subscribed_to?).with(property).and_return(false)      },V
+        expe,V
+        expect(User.find_and_unsubscribe_by(token, property)).to be_falsey,V
+        User.find_and_unsubscribe_by(token, property),V
+        k,V
+5,v
+      let(:property) { create(:property) }      let(:token) { 'abcdefgh012345' },V
+        ,V
+      let(:token) { 'abcdefgh012345' },V

@@ -1,0 +1,9 @@
+pane	0	0	:ruby	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	nvim	:nvim -c NERDTree
+pane	0	0	:ruby	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:foreman: master  
+pane	0	0	:ruby	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	tail	:tail -f log/development.log
+pane	0	0	:ruby	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	0	0	:ruby	1	:*Z	4	:/Users/ignacykasperowicz/Devel/durst_portal	1	ruby	:ruby ./bin/rspec ./spec/bdd/goals/rent_properties/visitors_can_express_their_interest/via_appointment_form_spec.rb
+pane	0	1	:nvim	0	:-	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	nvim	:nvim -c NERDTree
+window	0	0	1	:*Z	9f19,204x58,0,0{101x58,0,0,1,102x58,102,0[102x14,102,0,2,102x14,102,15,4,102x14,102,30,3,102x13,102,45,5]}
+window	0	1	0	:-	cea3,204x58,0,0,6
+state	0	

@@ -1,0 +1,8 @@
+pane	0	0	:..ystak/dynamic	1	:*	0	:/Users/ignacykasperowicz/Devel/haystak/dynamic	1	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	1	:/Users/ignacykasperowicz/Devel/seo_platform	0	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	2	:/Users/ignacykasperowicz/Devel/haystak/dynamic	0	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	3	:/Users/ignacykasperowicz/Devel/playground/ember-simple-auth-example	0	zsh	:
+pane	0	0	:..ystak/dynamic	1	:*	4	:/Users/ignacykasperowicz/Devel/seo_platform	0	ruby	:foreman: master   
+pane	0	0	:..ystak/dynamic	1	:*	5	:/Users/ignacykasperowicz/Devel/playground/ember-simple-auth-example	0	node	:ember  
+window	0	0	1	:*	9f05,363x92,0,0[364x30,0,0{181x30,0,0,1,182x30,182,0,5},364x30,0,31{181x30,0,31,2,182x30,182,31,3},364x31,0,62{181x31,0,62,4,182x31,182,62,7}]
+state	0	0

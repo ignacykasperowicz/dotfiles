@@ -1,0 +1,5 @@
+pane	0	0	:jasmine	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.3.1@durst_portal/bin/thin start -p 3000 -a 127.0.0.1       
+pane	0	0	:jasmine	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	1	ruby	:ruby ./bin/rake jasmine
+pane	0	0	:jasmine	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+window	0	0	1	:*Z	c9ec,204x57,0,0{102x57,0,0,1,101x57,103,0[101x28,103,0,3,101x28,103,29,4]}
+state	0	

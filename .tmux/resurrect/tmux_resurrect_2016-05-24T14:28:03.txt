@@ -1,0 +1,6 @@
+pane	0	0	:zsh	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	0	0	:zsh	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:zsh	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:zsh	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+window	0	0	1	:*Z	5117,204x56,0,0[205x37,0,0{128x37,0,0,1,38x37,129,0,2,37x37,168,0,3},205x19,0,38,4]
+state	0	

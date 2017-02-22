@@ -1,0 +1,23 @@
+pane	0	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	1	0	:../durst_portal	1	:!*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	1	0	:../durst_portal	1	:!*Z	1	:/Users/ignacykasperowicz	0	zsh	:
+pane	1	0	:../durst_portal	1	:!*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	1	0	:../durst_portal	1	:!*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	2	0	:../durst_portal	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	2	0	:../durst_portal	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.3.1/bin/ruby bin/rails c
+pane	2	0	:../durst_portal	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	2	0	:../durst_portal	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	1	git	:git diff
+pane	3	0	:..atacamp-tapas	1	:*Z	0	:/Users/ignacykasperowicz/Devel/datacamp-tapas	1	zsh	:
+pane	3	0	:..atacamp-tapas	1	:*Z	1	:/Users/ignacykasperowicz/Devel/datacamp-tapas	0	zsh	:
+pane	3	0	:..atacamp-tapas	1	:*Z	2	:/Users/ignacykasperowicz/Devel/datacamp-tapas	0	zsh	:
+pane	3	0	:..atacamp-tapas	1	:*Z	3	:/Users/ignacykasperowicz/Devel/datacamp-tapas	0	zsh	:
+pane	4	0	:pgcli	1	:*	0	:/Users/ignacykasperowicz/Devel/tmp/testtest	0	vim	:vim
+pane	4	0	:pgcli	1	:*	1	:/Users/ignacykasperowicz/Devel/tmp/testtest	1	Python	:/usr/bin/python /usr/local/bin/pgcli durst_development  
+window	0	0	1	:*Z	c9ec,204x57,0,0{102x57,0,0,1,101x57,103,0[101x28,103,0,3,101x28,103,29,4]}
+window	1	0	1	:!*Z	589a,204x57,0,0{102x57,0,0[102x28,0,0,167,102x28,0,29,170],101x57,103,0[101x28,103,0,168,101x28,103,29,169]}
+window	2	0	1	:*Z	e676,204x57,0,0[204x28,0,0{102x28,0,0,210,101x28,103,0,226},204x28,0,29{102x28,0,29,196,101x28,103,29,197}]
+window	3	0	1	:*Z	7098,204x57,0,0{102x57,0,0[102x28,0,0,304,102x28,0,29,307],101x57,103,0[101x28,103,0,305,101x28,103,29,306]}
+window	4	0	1	:*	1b5f,204x57,0,0{102x57,0,0,312,101x57,103,0,313}
+state	3	

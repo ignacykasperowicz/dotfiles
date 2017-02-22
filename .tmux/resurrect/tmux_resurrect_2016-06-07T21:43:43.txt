@@ -1,0 +1,10 @@
+pane	0	0	:nvim	1	:*	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	nvim	:nvim -c NERDTree
+pane	0	0	:nvim	1	:*	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	1	0	:zsh	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+pane	1	0	:zsh	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+pane	1	0	:zsh	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails s
+pane	1	0	:zsh	1	:*Z	3	:/Users/ignacykasperowicz	0	zsh	:
+pane	1	0	:zsh	1	:*Z	4	:/Users/ignacykasperowicz	0	zsh	:
+window	0	0	1	:*	f7d0,204x57,0,0{101x57,0,0,1,102x57,102,0,2}
+window	1	0	1	:*Z	bf24,204x57,0,0{102x57,0,0[102x28,0,0,3,102x28,0,29,6],101x57,103,0[101x14,103,0,4,101x13,103,15,8,101x28,103,29,5]}
+state	1	

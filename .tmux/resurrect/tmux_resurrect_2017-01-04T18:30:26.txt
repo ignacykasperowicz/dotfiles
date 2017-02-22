@@ -1,0 +1,6 @@
+pane	0	0	:be	1	:*	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.3.1@durst_portal/bin/guard  
+pane	0	0	:be	1	:*	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	ssh	:ssh root@doppler.kalm.pl
+pane	0	0	:be	1	:*	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.3.1/bin/ruby bin/rails c
+pane	0	0	:be	1	:*	3	:/Users/ignacykasperowicz/Devel/durst_portal	1	zsh	:
+window	0	0	1	:*	6ff0,204x57,0,0{102x57,0,0[102x28,0,0,0,102x28,0,29,3],101x57,103,0[101x28,103,0,1,101x28,103,29,2]}
+state	0	

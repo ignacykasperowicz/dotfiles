@@ -1,0 +1,4 @@
+pane	0	0	:nvim	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	nvim	:nvim -c NERDTree
+pane	0	0	:nvim	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+window	0	0	1	:*Z	9056,205x57,0,0{102x57,0,0,4,102x57,103,0,7}
+state	0	

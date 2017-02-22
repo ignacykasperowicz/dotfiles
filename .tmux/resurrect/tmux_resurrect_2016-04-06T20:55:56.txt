@@ -1,0 +1,7 @@
+pane	0	0	:../seo_platform	1	:*Z	0	:/Users/ignacykasperowicz	0	zsh	:
+pane	0	0	:../seo_platform	1	:*Z	1	:/Users/ignacykasperowicz/Devel/seo_platform	1	zsh	:
+pane	0	0	:../seo_platform	1	:*Z	2	:/Users/ignacykasperowicz/Devel/haystak/dynamic	0	zsh	:
+pane	0	0	:../seo_platform	1	:*Z	3	:/Users/ignacykasperowicz/Downloads	0	zsh	:
+pane	0	0	:../seo_platform	1	:*Z	4	:/Users/ignacykasperowicz/Devel/seo_platform	0	ruby	:foreman: master   
+window	0	0	1	:*Z	3e33,203x55,0,0[204x17,0,0{101x17,0,0,1,102x17,102,0,5},204x18,0,18{101x18,0,18,2,102x18,102,18,3},204x20,0,37,4]
+state	0	0

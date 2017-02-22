@@ -1,0 +1,5 @@
+pane	0	0	:ruby	1	:*	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	nvim	:nvim -c NERDTree
+pane	0	0	:ruby	1	:*	1	:/Users/ignacykasperowicz	1	ruby	:irb 
+pane	0	0	:ruby	1	:*	2	:/Users/ignacykasperowicz/Devel	0	vim	:vim mits_3_schema.xsd
+window	0	0	1	:*	3ff6,204x56,0,0{101x56,0,0,1,102x56,102,0[102x27,102,0,2,102x28,102,28,4]}
+state	0	

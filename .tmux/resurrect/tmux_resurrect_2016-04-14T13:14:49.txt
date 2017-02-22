@@ -1,0 +1,8 @@
+pane	0	0	:gsoWXuyccivHye7YjNqUVPPBl@sf2.tmate.io	1	:*Z	0	:/Users/ignacykasperowicz/Devel/haystak/dynamic	0	zsh	:
+pane	0	0	:gsoWXuyccivHye7YjNqUVPPBl@sf2.tmate.io	1	:*Z	1	:/Users/ignacykasperowicz/Devel/seo_platform	0	zsh	:
+pane	0	0	:gsoWXuyccivHye7YjNqUVPPBl@sf2.tmate.io	1	:*Z	2	:/Users/ignacykasperowicz/Devel/haystak/dynamic	0	zsh	:
+pane	0	0	:gsoWXuyccivHye7YjNqUVPPBl@sf2.tmate.io	1	:*Z	3	:/Users/ignacykasperowicz/Devel/playground/ember-simple-auth-example	0	zsh	:
+pane	0	0	:gsoWXuyccivHye7YjNqUVPPBl@sf2.tmate.io	1	:*Z	4	:/Users/ignacykasperowicz	1	ssh	:ssh gsoWXuyccivHye7YjNqUVPPBl@sf2.tmate.io
+pane	0	0	:gsoWXuyccivHye7YjNqUVPPBl@sf2.tmate.io	1	:*Z	5	:/Users/ignacykasperowicz/Devel/playground/ember-simple-auth-example	0	zsh	:
+window	0	0	1	:*Z	b46f,203x56,0,0[204x18,0,0{101x18,0,0,1,102x18,102,0,5},204x18,0,19{101x18,0,19,2,102x18,102,19,3},204x19,0,38{101x19,0,38,4,102x19,102,38,7}]
+state	0	0

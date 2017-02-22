@@ -1,0 +1,7 @@
+pane	0	0	:bundle	1	:*	0	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:ruby /Users/ignacykasperowicz/.rvm/gems/ruby-2.3.1@durst_portal/bin/thin start -p 3000 -a 127.0.0.1       
+pane	0	0	:bundle	1	:*	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:-zsh
+pane	0	0	:bundle	1	:*	2	:/Users/ignacykasperowicz/Devel/durst_portal	1	bash	:/usr/local/bin/fzf +s --tac +m -n2..,.. --tiebreak=index --toggle-sort=ctrl-r -q 
+pane	0	0	:bundle	1	:*	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.3.1/bin/ruby bin/rails c --sandbox
+pane	0	0	:bundle	1	:*	4	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+window	0	0	1	:*	47e4,204x57,0,0{102x57,0,0[102x28,0,0,0,102x16,0,29,3,102x11,0,46,76],101x57,103,0[101x28,103,0,1,101x28,103,29,2]}
+state	0	

@@ -1,0 +1,6 @@
+pane	0	0	:ssh	1	:*Z	0	:/Users/ignacykasperowicz/Devel/durst_portal	1	ssh	:ssh root@doppler.kalm.pl
+pane	0	0	:ssh	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:ssh	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:ssh	1	:*Z	3	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+window	0	0	1	:*Z	c5c2,204x57,0,0{101x57,0,0[101x28,0,0,1,101x28,0,29,2],102x57,102,0[102x28,102,0,3,102x28,102,29,4]}
+state	0	

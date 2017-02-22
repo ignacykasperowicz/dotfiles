@@ -1,0 +1,7 @@
+pane	0	0	:zsh	1	:*Z	0	:/Users/ignacykasperowicz/Devel/citrusbytes/home_automation/app/views/admin/device_types	1	zsh	:
+pane	0	0	:zsh	1	:*Z	1	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:zsh	1	:*Z	2	:/Users/ignacykasperowicz/Devel/durst_portal	0	zsh	:
+pane	0	0	:zsh	1	:*Z	3	:/Users/ignacykasperowicz/Devel/citrusbytes/home_automation	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails s
+pane	0	0	:zsh	1	:*Z	4	:/Users/ignacykasperowicz/Devel/citrusbytes/home_automation	0	ruby	:/Users/ignacykasperowicz/.rvm/rubies/ruby-2.2.2/bin/ruby bin/rails c
+window	0	0	1	:*Z	8a2b,204x57,0,0{101x57,0,0[101x18,0,0,1,101x17,0,19,6,101x20,0,37,3],102x57,102,0[102x28,102,0,4,102x28,102,29,5]}
+state	0	
